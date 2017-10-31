@@ -1,0 +1,231 @@
+body{
+width: 100%;
+height: 1800px;
+
+}
+
+.containerheading {
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  display: flex;
+  font-family: Helvetica;
+
+}
+
+.header {
+  border: 10px solid black;
+  border-color: black;
+  height: 69px;
+  display: inline-flex;
+  position: fixed;
+  background-color: black;
+  z-index: 2;
+  width: 100%;
+}
+
+.header img {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#nav {
+  margin-left: 660px;
+}
+
+a {
+  color: white;
+  margin: 17px;
+}
+
+/*header ends*/
+
+#misson {
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
+  height: 700px;
+  width: 90%;
+}
+
+#missontext {
+  background-color: black;
+  margin-top: 300px;
+}
+
+/*misson ends*/
+
+.containermiddle {
+  background-color: black;
+}
+
+#featuredtea {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  border: 1px solid black;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.containermiddle {
+  border: 1px solid black;
+}
+
+#berrytea {
+  margin-right: 700px;
+  height: 200px;
+  width: 300px;
+}
+
+#rumtea {
+  position: relative;
+  top: -270px;
+  height: 200px;
+  width: 300px;
+}
+
+#donats {
+  margin-left: 700px;
+  position: relative;
+  top: -537px;
+  height: 200px;
+  width: 300px;
+}
+
+#ave {
+position: relative;
+top: -500px;
+margin-right: 350px;
+  height: 200px;
+  width: 300px;
+}
+
+#bedford {
+position: relative;
+top: -767px;
+margin-left: 360px;
+  height: 200px;
+  width: 300px;
+}
+
+#featuredtea h2{
+  margin-top: 60px;
+}
+
+#featuredtea h4 {
+  margin-top: 10px;
+}
+
+#first {
+  margin-right: 700px;
+}
+
+#second {
+  position: relative;
+  top: -270px;
+}
+
+#third {
+  margin-left: 700px;
+  position: relative;
+  top: -537px;
+}
+
+#fourth{
+position: relative;
+top: -500px;
+margin-right: 360px;
+}
+
+#fifth{
+position: relative;
+top: -767px;
+margin-left: 360px;
+margin-bottom: 100px;
+}
+
+.endcontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    padding-top: 5px;
+    font-family: Helvetica;
+}
+#location h2{
+display: flex;
+  justify-content: center;
+  color: seashell;
+  font-weight: bold;
+font-family: Helvetica;
+font-size: 28px;
+}
+
+
+/*left the three boxes on porpuse as far away as possible from each other becouse
+i think it looks better*/
+#firstloc{
+
+}
+
+#secondloc{
+display: flex;
+justify-content: center;
+position: relative;
+top: -289px;
+}
+
+#thirdloc{
+position: relative;
+left: 480px;
+top: -579px;
+}
+
+
+ .location{
+width: 300px;
+text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+color: seashell;
+font-size: 22px;
+  background-color: black;
+
+}
+
+#location{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+height: 500px;
+position: relative;
+top: -800px;
+background-size: cover;
+padding-top: 70px;
+}
+
+
+#contact {
+position: relative;
+ top: -800px;
+  color: seashell;
+background-color: black;
+font-size: 30px;
+text-align: center;
+}
+
+footer{
+position: relative;
+top: -843px;
+  padding: 5px;
+  color: seashell;
+  background-color: black;
+  height: 8  0px;
+}
+
+/*hey i could not get the white space in the end away*/
